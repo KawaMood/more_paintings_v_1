@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:painting"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_mp:painting/events/player_placed_painting"
+    }
+}

@@ -1,0 +1,1 @@
+execute unless entity @s[tag=pkmp_ref_part_checked] run function pk_mp:painting/watch/check_rel_part_still_has_ref_part
